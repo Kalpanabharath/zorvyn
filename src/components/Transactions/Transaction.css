@@ -1,0 +1,106 @@
+.transactions{
+  padding:20px;
+}
+
+.transactions h2{
+  margin-bottom:20px;
+}
+
+/* Controls */
+
+.transaction-controls{
+  display:flex;
+  gap:15px;
+  margin-bottom:20px;
+}
+
+.transaction-controls input,
+.transaction-controls select{
+  padding:8px 12px;
+  border-radius:6px;
+  border:1px solid #ddd;
+}
+
+/* Add Transaction */
+
+.add-transaction{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+  flex-wrap:wrap;
+}
+
+.add-transaction input,
+.add-transaction select{
+  padding:8px 12px;
+  border:1px solid #ddd;
+  border-radius:6px;
+}
+
+.add-transaction button{
+  background:#6366f1;
+  color:white;
+  border:none;
+  padding:8px 16px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.add-transaction button:hover{
+  background:#4f46e5;
+}
+
+/* Table */
+
+.transaction-table{
+  width:100%;
+  border-collapse:collapse;
+  background:white;
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 4px 10px rgba(0,0,0,0.05);
+}
+
+.transaction-table th,
+.transaction-table td{
+  padding:12px;
+  text-align:left;
+  border-bottom:1px solid #eee;
+}
+
+.transaction-table th{
+  background:#f9fafb;
+}
+
+.no-data{
+  text-align:center;
+  padding:20px;
+}
+
+/* Tags */
+
+.income{
+  color:#16a34a;
+  font-weight:600;
+}
+
+.expense{
+  color:#dc2626;
+  font-weight:600;
+}
+
+.income-tag{
+  background:#dcfce7;
+  color:#16a34a;
+  padding:4px 10px;
+  border-radius:6px;
+  font-size:12px;
+}
+
+.expense-tag{
+  background:#fee2e2;
+  color:#dc2626;
+  padding:4px 10px;
+  border-radius:6px;
+  font-size:12px;
+}

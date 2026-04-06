@@ -1,0 +1,25 @@
+.main-container{
+    width: 84%;             
+    max-width: calc(100% - 200px);
+    height: 88vh;
+    position: absolute;
+    top: 65px;
+    right: 8px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 5px;
+    overflow: auto;
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    .main-container{
+        width: 98vw;
+        height: 85vh;
+        left: 4px;
+        max-width: none;
+        overflow: auto;
+        
+    }
+    
+}

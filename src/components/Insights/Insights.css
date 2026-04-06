@@ -1,0 +1,25 @@
+.insights{
+  padding:20px;
+}
+
+/* Reuse Dashboard Cards */
+
+.summary-cards{
+  display:flex;
+  gap:20px;
+  margin-bottom:30px;
+  flex-wrap:wrap;
+}
+
+/* Chart */
+
+.chart-box{
+  background:white;
+  padding:20px;
+  border-radius:14px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.graph-title{
+  margin-bottom:15px;
+}

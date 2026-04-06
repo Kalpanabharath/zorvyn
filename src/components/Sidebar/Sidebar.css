@@ -1,0 +1,35 @@
+.sidebar{
+    min-width: 200px;
+    width: 15%;
+    background-color: var(--sidebar-color);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.navbar-logo{
+width: 80%;
+height: 60px;
+padding: 10px;
+}
+.sidebar-list{
+    list-style: none;
+    padding: 20px 0px;
+}
+.sidebar-list li{
+    padding:10px  20px;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    &:hover{
+        font-weight: 700;
+        color: rgb(215, 226, 250);
+    }
+}
+.activepage{
+    font-weight: 700;
+    color: rgb(215, 226, 250) !important;
+}
+
